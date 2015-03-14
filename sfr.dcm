@@ -18,6 +18,11 @@ $CMP BRIDGE_NO
 D Normally-Open Solder Bridge
 $ENDCMP
 #
+$CMP CLVBAFKA
+D Common Anode RGB LED
+K RGB LED
+$ENDCMP
+#
 $CMP CONN_FTDI
 D Connector for SparkFun FTDI Breakout
 $ENDCMP
@@ -88,11 +93,6 @@ $ENDCMP
 $CMP USB-MICRO-B
 D USB Micro B connector
 K USB Micro B, USB
-$ENDCMP
-#
-$CMP USB-MINI-B
-D USB Mini B connector
-K USB Mini B, USB
 $ENDCMP
 #
 #End Doc Library
