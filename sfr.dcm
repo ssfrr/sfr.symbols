@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP122
+D 300mA LDO
+$ENDCMP
+#
+$CMP BL600
+D Laird BLE Module with nRF51822
+$ENDCMP
+#
+$CMP USB-MICRO-B
+D USB Micro B connector
+K USB Micro B, USB
+$ENDCMP
+#
+#End Doc Library
