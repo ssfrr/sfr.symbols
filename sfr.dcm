@@ -1,16 +1,98 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP ADP122
-D 300mA LDO
+D 300mA Linear Regulator
+K LDO
 $ENDCMP
 #
 $CMP BL600
-D Laird BLE Module with nRF51822
+D BLE Module based on nRF51822
+K BLE nRF41822
+$ENDCMP
+#
+$CMP BRIDGE_NC
+D Normally-Open Solder Bridge
+$ENDCMP
+#
+$CMP BRIDGE_NO
+D Normally-Open Solder Bridge
+$ENDCMP
+#
+$CMP CONN_FTDI
+D Connector for SparkFun FTDI Breakout
+$ENDCMP
+#
+$CMP CONN_LIPO
+D Sparkfun LiPo Connector
+$ENDCMP
+#
+$CMP DWM1000
+D DecaWave UWB Module
+K UWB
+$ENDCMP
+#
+$CMP FT232RL
+D USB to Serial Converter
+K FTDI UART USB
+$ENDCMP
+#
+$CMP FTSH-JTAG
+D 9-pin JTAG Connector for ARM
+$ENDCMP
+#
+$CMP HEADER_01x04
+D Header Pins
+$ENDCMP
+#
+$CMP HEADER_01x06
+D Header Pins
+$ENDCMP
+#
+$CMP HEADER_01x07
+D Header Pins
+$ENDCMP
+#
+$CMP MCP73831
+D LiPo Charge Controller
+K lipo battery
+$ENDCMP
+#
+$CMP MCP73832
+D LiPo Charge Controller
+K lipo battery
+$ENDCMP
+#
+$CMP MPU-9250
+D 9DOF IMU with SPI and I2C
+K imu spi i2c
+$ENDCMP
+#
+$CMP SFE_MPU-9150
+D SparkFun 9DOF IMU Module with I2C
+K imu i2c
+$ENDCMP
+#
+$CMP SML-LX0404SIUPGUSB
+D Common Anode RGB LED
+K RGB LED
+$ENDCMP
+#
+$CMP STC3100
+D Battry Gas Guage
+$ENDCMP
+#
+$CMP TPS62290DRV
+D Adjustable Voltage Switching Regulator
 $ENDCMP
 #
 $CMP USB-MICRO-B
 D USB Micro B connector
 K USB Micro B, USB
+$ENDCMP
+#
+$CMP USB-MINI-B
+D USB Mini B connector
+K USB Mini B, USB
 $ENDCMP
 #
 #End Doc Library
