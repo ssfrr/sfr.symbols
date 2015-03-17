@@ -86,6 +86,11 @@ $CMP STC3100
 D Battry Gas Guage
 $ENDCMP
 #
+$CMP SW_PUSH
+D Push Button
+K Switch
+$ENDCMP
+#
 $CMP TPS62290DRV
 D Adjustable Voltage Switching Regulator
 $ENDCMP
